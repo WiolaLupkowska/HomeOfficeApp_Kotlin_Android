@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_small"></ImageView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/lato"
+        android:text="Logowanie"
+        android:textColor="#BF000000"
+        android:textSize="24dp"
+        android:transitionName="rehabilitacjaText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/log_in_username"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="login"
+            app:boxBackgroundColor="@drawable/edit_text_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                ></com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/log_in_password"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:hint="hasło"
+            app:boxBackgroundColor="@drawable/edit_text_background"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                ></com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFDB80"
+        android:fontFamily="@font/lato"
+        android:onClick="onClickBtnZaloguj"
+        android:text="ZALOGUJ"
+        android:textColor="#000000"></Button>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="Nowy użytkownik?"
+            android:textColor="#BF000000"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/lato_bold"
+            android:onClick="onClickBtnZarejestruj"
+            android:text="ZAREJESTRUJ SIĘ"
+            android:textColor="#FBC02D" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

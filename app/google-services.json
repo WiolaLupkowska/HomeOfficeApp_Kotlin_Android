@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038748689415",
+    "firebase_url": "https://homeoffice-768d4.firebaseio.com",
+    "project_id": "homeoffice-768d4",
+    "storage_bucket": "homeoffice-768d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038748689415:android:c4e72e5f7c51178c50b6a2",
+        "android_client_info": {
+          "package_name": "com.example.homeoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038748689415-fjp3ukt4jclkgsimcoglu7nm7pu9j7au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAp5yNTeSyhwD0LTor2BgI9LHhQRkeBDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038748689415-fjp3ukt4jclkgsimcoglu7nm7pu9j7au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
